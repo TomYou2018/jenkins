@@ -1,0 +1,9 @@
+Started by user [8mha:////4H9LheH5CgmZyztYQdLvoylYuTZi/qcePZpv7LDK60AhAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /root/.jenkins/workspace/demoJob2
+[demoJob2] $ /bin/sh -xe /tmp/jenkins7455308507202645568.sh
++ gcc main.c
+gcc: error: main.c: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

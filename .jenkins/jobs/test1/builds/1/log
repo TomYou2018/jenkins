@@ -1,0 +1,23 @@
+Started by user [8mha:////4H9LheH5CgmZyztYQdLvoylYuTZi/qcePZpv7LDK60AhAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /root/.jenkins/workspace/test1
+Cloning the remote Git repository
+Cloning repository https://github.com/TomYou2018/bitcoinJava.git
+ > git init /root/.jenkins/workspace/test1 # timeout=10
+Fetching upstream changes from https://github.com/TomYou2018/bitcoinJava.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/TomYou2018/bitcoinJava.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/TomYou2018/bitcoinJava.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/TomYou2018/bitcoinJava.git # timeout=10
+Fetching upstream changes from https://github.com/TomYou2018/bitcoinJava.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/TomYou2018/bitcoinJava.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6cb77545e98fb11a8dd45bea4f60d041fac0976c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6cb77545e98fb11a8dd45bea4f60d041fac0976c
+Commit message: "5"
+First time build. Skipping changelog.
+Finished: SUCCESS

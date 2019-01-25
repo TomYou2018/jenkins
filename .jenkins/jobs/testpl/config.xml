@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.31">
+  <actions/>
+  <description>this is a test of pipeline</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.62">
+    <script>node {    
+//stage(&quot;stageName&quot;) { 
+// do something here    
+//}    
+
+stage(&quot;RunDemoJob1&quot;) { 
+       echo &quot;Now lets run DemoJob1!!!&quot; 
+       build job:&quot;demoJob1&quot;    
+    
+}    
+       
+stage(&quot;RunDemoJob2&quot;) {
+        echo &quot;Now lets run DemoJob2!!!&quot;
+       // parameters: [            string(name: &quot;demoParam2&quot;, value:&quot;valueFromPipeline&quot; )        ]  
+      build job:&quot;demoJob2&quot;    
+    
+}
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
